@@ -1,0 +1,25 @@
+                                            CSS Fakta
+
+<!doctype html>
+
+<html>
+<head>
+    <Style>
+         div {
+             color: blue;                             <!--        (Da blir DIVENE blå)  -->
+             backfround-color: lightblue;             <!--       (Bakgrunnen bak tekst blir lyse blå) -->
+             padding: 10px;                           <!--        (Luft rundt tekst)-->
+             margin: 10px;                            <!--        (Gir rom utenfor bakgrunnsfargen) -->
+             border: solid green 2px;                 <!--        (Border=Ramme rundt eks tekst. Solid betyr rett strek, green er fargen rundt, og 2px er tykkelsen på rammen.    -->                                             
+         }
+     </style>
+</head>
+<body>
+     <h1>Chris går på getacademy</head>
+     <div class="grønn">Jeg skal lære om HTML, CSS og JAVASCRIPT</div>     <!--       (class="grønn"   Man lager class, lettere å style i CSS. -->
+     <div class="rød">Jeg skal lære om HTML, CSS og JAVASCRIPT</div>       <!--       (i CSS skriver man inn dette for å style,  div.grønn { color: blue; } -->
+     <div class="gul">Jeg skal lære om HTML, CSS og JAVASCRIPT</div>
+</body>
+</html>
+
+
